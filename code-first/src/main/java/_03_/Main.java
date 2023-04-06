@@ -12,7 +12,7 @@ public class Main {
 
         entityManager.getTransaction().begin();
 
-Student student = new Student("Nikola","Atanasov","0899915854",4.50,"50%");
+Student student = new Student("Nikola","Atanasov","0898824632",4.50,"50%");
 Student student2 = new Student("Petyr","Iliev","0899915853",5.50,"60%");
 Teacher teacher = new Teacher("Atanas","Linkov","0877519658","atanas_linkov@gmail.com"
         , BigDecimal.valueOf(20));
