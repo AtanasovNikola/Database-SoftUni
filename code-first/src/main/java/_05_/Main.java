@@ -11,9 +11,9 @@ public class Main {
         EntityManager entityManager = factory.createEntityManager();
 
         entityManager.getTransaction().begin();
-        User user = new User("Nikola", "Atanasov", "atanasov_n@mail.ru", "Gishmi11!");
-        User user2 = new User("Atanas", "Atanasov", "atanasov_a@mail.bg", "qwer!");
-        User user3 = new User("Galya", "Atanasova", "atanasova_g@abv.bg", "asdafd!");
+        User user = new User("Nikola", "Atanasov", "asdad@mail.ru", "dasdas!");
+        User user2 = new User("Atanas", "Atanasov", "asdas@mail.bg", "qwer!");
+        User user3 = new User("Galya", "Atanasova", "asdad@abv.bg", "asdafd!");
         entityManager.persist(user);
         entityManager.persist(user2);
         entityManager.persist(user3);
